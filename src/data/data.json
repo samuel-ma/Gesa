@@ -1,0 +1,111 @@
+[
+    {
+        "id": 0,
+        "gender": "male",
+        "name": "Samuel ma",
+        "comittee": false,
+        "img": "../img/person21.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "member",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 1,
+        "gender": "male",
+        "name": "TengTeng Ben10",
+        "comittee": false,
+        "img": "../img/person6.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "member",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 2,
+        "gender": "male",
+        "name": "Dr Malesh",
+        "comittee": true,
+        "img": "../img/person18.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "Vice President",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 3,
+        "gender": "male",
+        "name": "Minister Bol",
+        "comittee": false,
+        "img": "../img/person13.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "member",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 4,
+        "gender": "male",
+        "name": "President Francis",
+        "comittee": true,
+        "img": "../img/person5.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "President",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 5,
+        "gender": "male",
+        "name": "Vice Alex",
+        "comittee": false,
+        "img": "../img/person6.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "member",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 6,
+        "gender": "female",
+        "name": "Mary Jane",
+        "comittee": true,
+        "img": "../img/person7.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "Secretary",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 7,
+        "gender": "male",
+        "name": "Pastor Patrick",
+        "comittee": false,
+        "img": "../img/person8.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "member",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 8,
+        "gender": "male",
+        "name": "Johnny Boy",
+        "comittee": true,
+        "img": "../img/person9.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "Treasurer",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    },
+
+    {
+        "id": 9,
+        "gender": "male",
+        "name": "Tony Montanna",
+        "comittee": false,
+        "img": "../img/person5.jpg",
+        "desc": "Here's a short description about the person above and what they do and love not to do",
+        "position": "member",
+        "contact": "https://www.facebook.com/profile.php?id=100092379684443&sk=about_profile_transparency"
+    }
+]

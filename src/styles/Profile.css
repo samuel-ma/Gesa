@@ -1,0 +1,93 @@
+:root {
+    --blue: rgb(0, 153, 255);
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+.person {
+    border: 1px solid var(--line);
+    width: fit-content;
+}
+
+.person:hover {
+    border: 1px solid var(--blue);
+}
+
+.personn {
+    padding: 20px;
+}
+
+.person1 {
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mystats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.member {
+    font-size: 25px;
+    color: var(--blue);
+}
+
+.ant {
+    color: var(--blue);
+    font-size: 22px;
+}
+
+.verified {
+    color: var(--blue);
+    font-size: 20px;
+}
+
+.fire {
+    color: #e73827;
+    font-size: 20px;
+}
+
+.person_icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pi1 {
+    flex: 1;
+    text-align: center;
+    background-color: var(--blue);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.pi2 {
+    background-color: none;
+    border: 1px solid var(--line);
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pi2:hover {
+    background-color: var(--blue);
+}
