@@ -1,0 +1,67 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-im {
+    width: 1300px;
+    border-radius: 20px;
+}
+
+.arrow-left {
+    cursor: pointer;
+    padding: 10px;
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grey);
+    position: absolute;
+    left: 30px;
+    border-radius: 30px;
+}
+
+.arrow-right {
+    cursor: pointer;
+    padding: 10px;
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grey);
+    position: absolute;
+    right: 30px;
+    border-radius: 30px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    color: white;
+    background: -webkit-linear-gradient(45deg, #680aca, #ff897e);
+    background: linear-gradient(
+        60deg,
+        #f79533,
+        #f37055,
+        #ef4e7b,
+        #a166ab,
+        #5073b8,
+        #1098ad,
+        #07b39b,
+        #6fba82
+    );
+    -webkit-animation: animatedgradient 6s ease infinite alternate;
+    animation: animatedgradient 6s ease infinite alternate;
+    background-size: 300% 300%;
+    border: 1px solid #000;
+    border: none;
+}
