@@ -160,7 +160,7 @@ function Profile() {
             <Categories />
             <section className='profiles'>
                 {
-                    profiles.map(data => <Person key={data.id} name={data.name} gender={data.gender} img={data.img} position={data.position} desc={data.desc} comittee={data.comittee} />)
+                    profiles.sort((a, b) => b.id - a.id).map(data => <Person key={data.id} name={data.name} gender={data.gender} img={data.img} position={data.position} desc={data.desc} comittee={data.comittee} />)
                 }
             </section>
         </>
@@ -170,11 +170,11 @@ function Profile() {
 const Person = ({ name, img, position, comittee, desc, gender }) => {
 
     return (
-        <div className='person'>
+        <div className={(comittee && gender == "female") ? "person2" : (comittee && gender == "male") ? "person3" : "person"}>
             <img className='person1' src={img} alt={name} />
 
             <div className='personn'>
-                <div className='name'>
+                <div className={comittee ? "name2" : "name"}>
                     <h1>{name}</h1>
 
                     <div className='mystats'>
@@ -184,7 +184,7 @@ const Person = ({ name, img, position, comittee, desc, gender }) => {
                             }
                         </div>
 
-                        <div className="ant">
+                        <div className={comittee ? "ant2" : "ant"}>
                             {
                                 (gender == "female") ? <BsGenderFemale /> : <BsGenderMale />
                             }
@@ -208,11 +208,11 @@ const Person = ({ name, img, position, comittee, desc, gender }) => {
                 <p>{desc}</p>
 
                 <div className='person_icons'>
-                    <div className='pi1'>
+                    <div className={comittee ? "pi11" : "pi1"}>
                         <BiLinkExternal />
                     </div>
 
-                    <div className='pi2'>
+                    <div className={comittee ? "pi22" : "pi2"}>
                         <BsFillBookmarkHeartFill />
                     </div>
                 </div>

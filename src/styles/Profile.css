@@ -16,6 +16,26 @@
     width: fit-content;
 }
 
+.person2 {
+    background: linear-gradient(to left, #bc4e9c, #f80759);
+    border: 1px solid #bc4e9c;
+}
+
+.person3 {
+    background: linear-gradient(to left, #1488cc, #2b32b2);
+    border: 1px solid #2b32b2;
+}
+
+.person3 h1,
+.person2 h1 {
+    color: white;
+}
+
+.person3:hover,
+.person2:hover {
+    border: 1px solid;
+}
+
 .person:hover {
     border: 1px solid var(--blue);
 }
@@ -32,6 +52,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--line);
+}
+
+.name2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed white;
 }
 
 .mystats {
@@ -51,13 +79,23 @@
     font-size: 22px;
 }
 
+.ant2 {
+    color: white;
+    font-size: 22px;
+}
+
 .verified {
     color: var(--blue);
     font-size: 20px;
 }
 
+.verified {
+    color: white;
+    font-size: 20px;
+}
+
 .fire {
-    color: #e73827;
+    color: red;
     font-size: 20px;
 }
 
@@ -68,6 +106,7 @@
 }
 
 .pi1 {
+    border: 1px solid var(--blue);
     flex: 1;
     text-align: center;
     background-color: var(--blue);
@@ -75,6 +114,17 @@
     font-size: 20px;
     cursor: pointer;
     color: white;
+}
+
+.pi11 {
+    border: 1px solid white;
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--blue);
 }
 
 .pi2 {
@@ -88,6 +138,22 @@
     cursor: pointer;
 }
 
+.pi22 {
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .pi2:hover {
     background-color: var(--blue);
+}
+
+.pi22:hover {
+    background-color: white;
+    color: var(--blue);
 }
